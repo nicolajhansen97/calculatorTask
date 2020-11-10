@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" prefHeight="336.0" prefWidth="389.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="261.0" prefWidth="389.0">
+         <children>
+            <Button fx:id="b1" layoutX="30.0" layoutY="21.0" mnemonicParsing="false" onAction="#handlerOne" text="1" />
+            <Button fx:id="b2" layoutX="75.0" layoutY="21.0" mnemonicParsing="false" onAction="#handlerTwo" text="2" />
+            <Button fx:id="b3" layoutX="294.0" layoutY="21.0" mnemonicParsing="false" onAction="#handlerClear" text="Clear" />
+            <Button fx:id="b4" layoutX="294.0" layoutY="138.0" mnemonicParsing="false" onAction="#handlerPlus" prefHeight="31.0" prefWidth="54.0" text="+" />
+            <TextField fx:id="t1" layoutX="22.0" layoutY="185.0" />
+            <Button fx:id="b5" layoutX="289.0" layoutY="201.0" mnemonicParsing="false" onAction="#handlerEqual" text="=" />
+
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
